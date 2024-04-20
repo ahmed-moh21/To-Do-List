@@ -1,0 +1,49 @@
+.main-sec {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5a74a3;
+}
+.main-d {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.d-pa {
+  width: 20rem;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.scr {
+  border-radius: 10px;
+  background: #5f9ea03b;
+  width: 5rem;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999999;
+}
+
+.ao-an {
+  animation: animate 2s ease-in-out infinite;
+  animation-direction: alternate-reverse;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: -30px;
+  }
+  100% {
+    margin-top: 30px;
+  }
+}

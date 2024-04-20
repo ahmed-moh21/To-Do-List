@@ -1,0 +1,20 @@
+.rond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-show {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.show-banner {
+  width: 45%;
+}
+
+.show-sec {
+  width: 50%;
+}
